@@ -1,6 +1,7 @@
 -module(leaf_table).
 -export([list_insert/2]).
 
+% list_insert: insert new leaves into the leaf table using insertion sort.
 list_insert(Leaf,LeafTable) ->
 	list_insert([],Leaf,LeafTable).
 
