@@ -1,3 +1,6 @@
+% storage.erl - object storage for erlang-dht
+%
+
 -module(storage).
 -export([store/2,retrieve/1,init/1]).
 
